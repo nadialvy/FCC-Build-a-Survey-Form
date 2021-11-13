@@ -1,0 +1,88 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: rgba(235, 230, 230, 0.856);
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(survey-form-background.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1{
+    font-weight: 300;
+    margin: 40px 0 -20px 0;
+}
+
+header p{
+    font-weight: 200;
+    font-style: italic;
+}
+
+main{
+    background-color: rgba(17, 6, 44, 0.651);
+    border-radius: 5px;
+    padding: 30px 50px;
+    margin: 40px 0 90px 0;
+}
+
+/* form */
+
+.top3 input, select{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    margin: 6px 0 30px 0;
+}
+
+main span{
+    font-size: 14px;
+}
+
+.radio input{
+    text-align: left;
+}
+
+
+/* coment */
+
+textarea{
+    margin-top: 10px;
+    
+    width: 100%;
+    min-height: 100px;
+    outline: none;
+    resize: none;
+    border: 1px solid grey;
+}
+
+textarea::placeholder{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* button */
+button{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(235, 230, 230, 0.856);
+    border: none;
+    width: 100%;
+    padding: 10px 0;
+    background-color: rgb(75, 163, 75);
+    margin: 30px 0 70px 0;
+}
